@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- *main - entry point
- *Return: Always 0
+ * main - entry point:alphabet in reverse.
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int n = 122;
+	char l;
 
-	while (n >= 97)
-	{
-		putchar(n);
-		n '==';
-	}
+	for (l = 'z'; l >= 'a'; l--)
+		putchar(l);
 	putchar('\n');
+
 	return (0);
 }
