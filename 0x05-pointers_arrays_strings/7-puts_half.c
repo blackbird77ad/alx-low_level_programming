@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  *puts-half -prints half of the string.
