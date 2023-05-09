@@ -3,9 +3,10 @@
 
 /**
  * _memset - a function that fills memory with a constant byte.
- * @s: a character in function
- * @b: Second character
- * @n: unsigned integer
+ * @s: a character in the function.
+ * @b: Second character in the function.
+ * @n: unsigned integer.
+ * Return: returns s.
  */
 
 char *_memset(char *s, char b, unsigned int n)
