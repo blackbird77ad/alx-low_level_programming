@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strstr - Writes a function that locates a substring.
+ * _strstr - a function that locates a substring.
  * @haystack: the first parameter
  * @needle: the first occurrence of the substring
  * Return: Returns a pointer to the beginning of the located substring,
@@ -20,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 			else
 				break;
 		}
-		if (needle[j])
+		if (needle[a])
 		{
 			a++;
 			b = 0;
